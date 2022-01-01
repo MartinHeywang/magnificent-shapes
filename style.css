@@ -85,10 +85,6 @@ body {
     --default-translate-x: -50%;
 }
 
-.shape:hover::after {
-    transform: translate(var(--default-translate-x), var(--default-translate-y));
-}
-
 .title {
     font-weight: var(--fw-bold);
     font-size: 2rem;
